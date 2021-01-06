@@ -72,7 +72,7 @@ usage : apenas envie o comando
 note : Só pode ser usado por administradores de grupo e proprietário do bot\n
 command : *${prefix}tagall*
 desc : marca todos os membros do grupo, incluindo administradores também
-usage : just send the command
+usage : apenas envie o comando
 note : Este comando pode ser usado se você for um administrador de grupo\n
 command : *${prefix}simih*
 desc : ative o modo simi no grupo
