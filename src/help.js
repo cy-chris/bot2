@@ -1,83 +1,83 @@
 const help = (prefix) => {
 	return `> *Sticker Commands* <
 command : *${prefix}sticker* or *${prefix}stiker*
-desc : convert image/gif/video to sticker
-usage : reply image/gif/video, or send image/gif/video with caption\n
+desc : converter imagem/gif/vídeo em adesivo
+uso: responder imagem/gif/vídeo ou enviar imagem/gif/vídeo com legenda\n
 command : *${prefix}sticker nobg* or *${prefix}stiker nobg*
-desc : convert image to sticker while removing the background
-usage : reply image, or send image with caption\n
+desc : converter imagem em adesivo removendo o fundo
+uso: responder imagem ou enviar imagem com legenda\n
 command : *${prefix}toimg*
-desc : convert sticker to image
-usage : reply sticker\n
+desc : converter adesivo em imagem
+uso: adesivo de resposta\n
 command : *${prefix}tsticker* or *${prefix}tstiker*
-desc : convert text to sticker
-usage : *${prefix}tsticker text in here*\n
+desc : converter texto em adesivo
+usage : *${prefix}tsticker texto aqui*\n
 > *Meme Commands* <
 command : *${prefix}meme*
-desc : random meme images [english]
-usage : just send the command\n
+desc : imagens aleatórias de meme [inglês]
+uso: basta enviar o comando\n
 command : *${prefix}memeindo*
-desc : random meme images [indo]
-usage : just send the command\n
-> *Others Commands* <
+desc : imagens aleatórias de meme [indo]
+uso: basta enviar o comando\n
+> *Outros Comandos* <
 command : *${prefix}gtts*
-desc : convert text to speech/audio
+desc : converter texto em fala/áudio
 usage : *${prefix}gtts [cc] [text]*\nexample : *${prefix}gtts ja On2-chan*\n
 command : *${prefix}loli*
-desc : random loli images
-usage : just send the command\n
+desc : imagens aleatórias de loli
+usage : apenas envie o comando\n
 command : *${prefix}nsfwloli*
-desc : random nsfw loli images
-usage : just send the command\n
+desc : imagens aleatórias de nsfw loli
+usage : apenas envie o comando\n
 command : *${prefix}url2img*
-desc : take web screenshots
+desc : tirar screenshots da web
 usage : *${prefix}url2img [tipe] [url]*\n
 command : *${prefix}simi*
-desc : your message will be replied to by simi
+desc : sua mensagem será respondida por simi
 usage : *${prefix}simi yourmessage*\n
 command : *${prefix}ocr*
-desc : take the text in the picture
-usage : reply image, or send image with caption\n
+desc : pegue o texto na foto
+usage : responder imagem ou enviar imagem com legenda\n
 command : *${prefix}wait*
-desc : search anime with image [ What Anime Is This/That ]
-usage : reply image, or send image with caption\n
+desc : pesquisar anime com imagem [What Anime Is This / That]
+usage : responder imagem ou enviar imagem com legenda\n
 command : *${prefix}setprefix*
-desc : replace prefix
+desc : substituir prefixo
 usage : *${prefix}setprefix [text|optional]*\nexample : *${prefix}setprefix ?*
-note : This command can only be used by the bot owner\n
+note : Este comando só pode ser usado pelo proprietário do bot\n
 > *Group Comands* <
 command : *${prefix}add*
-desc : add member into group
+desc : adicionar membro ao grupo
 usage : *${prefix}add 62813xxxxx*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n
 command : *${prefix}kick*
-desc : kick members from group
+desc : chutar membros do grupo
 usage : *${prefix}kick @tagmember*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n
 command : *${prefix}promote*
-desc : make the group member as group admin
+desc : tornar o membro do grupo como administrador do grupo
 usage : *${prefix}promote @tagmember*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n
 command : *${prefix}demote*
-desc : make the group admin as group member
+desc : tornar o administrador do grupo como membro do grupo
 usage : *${prefix}demote @tagmember*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n
 command : *${prefix}linkgroup*
-desc : take the group link
-usage : just send the command
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
+desc : pegue o link do grupo
+usage : apenas envie o comando
+note : só pode ser usado quando o bot se torna admin, e quem envia o comando é admin!\n
 command : *${prefix}leave*
-desc : Make bot leave the group
-usage : just send the command
-note : Can only be used by Group admins and Bot owner\n
+desc : Faça o bot sair do grupo
+usage : apenas envie o comando
+note : Só pode ser usado por administradores de grupo e proprietário do bot\n
 command : *${prefix}tagall*
-desc : tags all group members including admins too
+desc : marca todos os membros do grupo, incluindo administradores também
 usage : just send the command
-note : This command can be used if you are a group admin\n
+note : Este comando pode ser usado se você for um administrador de grupo\n
 command : *${prefix}simih*
-desc : activate simi mode in the group
+desc : ative o modo simi no grupo
 usage : *${prefix}simih 1* to activate simi mode and *${prefix}simih 0* to deactivate simi mode
-note : This command can be used if you are a group admin\n`
+note : Este comando pode ser usado se você for um administrador de grupo\n`
 }
 
 exports.help = help
