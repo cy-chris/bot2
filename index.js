@@ -302,14 +302,14 @@ async function starts() {
 					}
 					break
 				case 'gtts':
-					if (args.length < 1) return client.sendMessage(from, 'Kode bahasanya mana om?', text, {quoted: mek})
+					if (args.length < 1) return client.sendMessage(from, 'Onde está o código do idioma, tio?', text, {quoted: mek}
 					const gtts = require('./lib/gtts')(args[0])
 					if (args.length < 2) return client.sendMessage(from, 'Textnya mana om', text, {quoted: mek})
 					dtt = body.slice(9)
 					ranm = getRandom('.mp3')
 					rano = getRandom('.ogg')
 					dtt.length > 600
-					? reply('Textnya kebanyakan om')
+					? reply('A maior parte do texto é tio')
 					: gtts.save(ranm, dtt, function() {
 						client.sendMessage(from, fs.readFileSync(ranm), audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 						fs.unlinkSync(rano)
@@ -335,15 +335,15 @@ async function starts() {
 					loli.getSFWLoli(async (err, res) => {
 						if (err) return reply('❌ *ERROR* ❌')
 						buffer = await getBuffer(res.url)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Citai Lolimu'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'toma sua loli ai, lolicon do krl'})
 					})
 					break
 				case 'nsfwloli':
-					if (!isNsfw) return reply('❌ *FALSE* ❌')
+					if (!isNsfw) return reply('❌ *NAO* ❌')
 					loli.getNSFWLoli(async (err, res) => {
-						if (err) return reply('❌ *ERROR* ❌')
+						if (err) return reply('❌ *ERRO* ❌')
 						buffer = await getBuffer(res.url)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Não faça ingredientes para o tio comum'})
 					})
 					break
 				case 'hilih':
