@@ -1,5 +1,5 @@
 const help = (prefix) => {
-	return `> *Sticker Commands* <
+	return `> 💎𝑴𝑰𝑳𝑬𝑵𝑨𝐁𝐎𝐓💎 <
 command : *${prefix}sticker* or *${prefix}stiker*
 desc : converter imagem/gif/vídeo em adesivo
 uso: responder imagem/gif/vídeo ou enviar imagem/gif/vídeo com legenda\n
