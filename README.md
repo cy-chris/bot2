@@ -23,7 +23,7 @@ você acabou de clonar!!
 > bash install.sh
 ```
 
-### Usage
+### para iniciar
 ```bash
 > npm start
 ```
