@@ -8,7 +8,7 @@
 <a href="https://github.com/cy-chris"><img title="Author" src="https://img.shields.io/badge/mestre-chris-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 
-## Clone this project
+## Clone o projeto 
 
 ```bash
 > git clone https://github.com/cy-chris/bot
