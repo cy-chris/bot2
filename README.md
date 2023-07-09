@@ -18,7 +18,7 @@
 ## Clone this project
 
 ```bash
-> git clone https://github.com/cy-chris/bot2
+> git clone https://github.com/cy-chris/bot
 ```
 
 ## Install the dependencies:
@@ -71,10 +71,5 @@ you've just cloned!!
 |       ✅        |   Broadcast                      |
 |       ✅        |   Clear All Chats                |
 
-## Special Thanks to
+## palmas especiais para
 * [`adiwajshing/Baileys`](https://github.com/adiwajshing/Baileys)
-
-## Group
-* [`WhatsApp`](https://chat.whatsapp.com/KLfjq8AK4Jz62Pqfz5sv0v)
-### Donate
-* [`Saweria`](https://saweria.co/donate/mhankbarbar)
