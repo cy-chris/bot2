@@ -21,12 +21,12 @@
 > git clone https://github.com/cy-chris/bot
 ```
 
-## Install the dependencies:
-Before running the below command, make sure you're in the project directory that
-you've just cloned!!
+## Instale as dependências:
+Antes de executar o comando abaixo, verifique se você está no diretório do projeto que
+você acabou de clonar!!
 
 ```bash
-> cd bot2
+> cd bot
 > bash install.sh
 ```
 
