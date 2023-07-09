@@ -11,7 +11,7 @@
 ## Clone o projeto 
 
 ```bash
-> git clone https://github.com/cy-chris/bot
+> git clone https://github.com/cy-chris/milenabot
 ```
 
 ## Instale as dependências:
@@ -19,7 +19,7 @@ Antes de executar o comando abaixo, verifique se você está no diretório do pr
 você acabou de clonar!!
 
 ```bash
-> cd bot
+> cd milenabot
 > bash install.sh
 ```
 
